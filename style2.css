@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin :0 ;
+}
+
+.container{
+    color:black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.child{
+    display: flex;
+    justify-content: center;
+}
+.blog{
+    margin-right: 10px;
+}
+.poke{
+    display: flex;
+    justify-content: flex-end;
+}

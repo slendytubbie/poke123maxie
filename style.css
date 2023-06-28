@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+
+}
+
+.hero {
+    background-image: url(/image.png);
+    width: 100vw;
+    min-height: 130vh;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.header {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.child-element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog {
+    margin-right: 10px;
+}
+.hero-2{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+.pokemon{
+    font-size: smaller;
+}
+.pokew{
+    font-size: 120%;
+}
+
+.toke{
+    max-width: 400px ;
+}
+.life{
+    color: darkorange;
+    width: 100%;
+    max-width: 400px;
+}
+
+
+.tank{ 
+    justify-items: flex-start;
+    align-items: center;
+}
+
+.week{
+    justify-items: flex-end;
+    align-items: center;
+
+}
